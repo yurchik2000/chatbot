@@ -1,0 +1,94 @@
+{"contacts": [
+    {
+      "id": 1,
+      "name": "Alice Freeman",
+      "status": "online",
+      "avatarUrl": "alice.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Josefina",
+      "status": "online",
+      "avatarUrl": "josefina.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Velazquez",
+      "status": "online",
+      "avatarUrl": "velazgues.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Barrera",
+      "status": "online",
+      "avatarUrl": "barerra.jpg"
+    }
+  ],
+"chats": [
+    {
+      "id": 1,
+      "name": "Alice Freeman",
+      "chat": [
+        {
+          "id": 1,
+          "time": "19:10",
+	      "date": "12/07/2017",
+          "text": "You are the worst!",
+          "type": "own"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Josefina",
+      "chat": [
+        {
+            "id": 1,
+            "time": "04:00",
+	        "date": "4/22/17",
+            "text": "Quickly come to the meeting room 1B, we have a big server issue",
+            "type": "other"
+        },
+        {
+            "id": 2,
+            "time": "04:05",
+	        "date": "4/22/17",
+            "text": "I'm having breakfast right now, can't you wait for 10 minutes?",
+            "type": "own"
+        },
+        {
+            "id": 3,
+            "time": "04:10",
+	        "date": "4/22/17",
+            "text": "We are losing money! Quick!",
+            "type": "other"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Velazquez",
+      "chat": [
+        {
+            "id": 1,
+            "time": "18:30",
+	        "date": "18/03/2017",
+            "text": "Quickly come to the meeting room 1B, we have a big server issue",
+            "type": "other"
+        }      
+      ]
+    },
+    {
+        "id": 4,
+        "name": "Barrera",
+        "chat": [
+        {
+          "id": 1,
+          "time": "18:30",
+          "text": "Hello!",
+          "type": "other"
+        }
+      ]
+    }
+ ]
+}
