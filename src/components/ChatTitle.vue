@@ -7,7 +7,7 @@
         <p class='contact__name'>
                 {{contacts[activeContact-1].name}}
         </p>        
-    </div>    
+    </div>        
 </template>
 
 <script>
@@ -19,8 +19,7 @@ export default{
     name: 'ChatTile',
     computed: {
         ...mapState(['activeContact', 'contacts'])
-    },
-    
+    },    
 }
 </script>
 

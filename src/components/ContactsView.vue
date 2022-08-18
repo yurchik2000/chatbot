@@ -16,7 +16,6 @@ export default{
         ContactsAbout,
         ContactsList
     }
-    
 }
 </script>
 
