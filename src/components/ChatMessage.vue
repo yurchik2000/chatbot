@@ -27,7 +27,7 @@
         {{ chat_data.date }},
         {{ chat_data.time }}
       </p>
-    </div>
+    </div>    
   </div>
 </template>
 

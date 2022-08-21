@@ -2,7 +2,7 @@
     <div class="chat__view">
         <ChatTitle />
         <ChatList />
-        <ChatInput />
+        <ChatInput />   
     </div>    
 </template>
 
@@ -25,5 +25,7 @@ export default{
 <style lang="scss" scoped>
     .chat__view{
         width: 70%;        
+        display: flex;
+        flex-direction: column;                
     }
 </style>

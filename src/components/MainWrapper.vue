@@ -26,12 +26,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>    
-    .main__wrapper{
-        padding: 5px;
+    .main__wrapper{        
         display: flex;
         background: #f5f5f5;                        
         max-width: 1440px;
         margin: 0 auto;
+        height: 100vh;
     }
-
 </style>

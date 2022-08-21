@@ -1,8 +1,8 @@
 <template>
-    <div class="contacts__view">
-        <ContactsAbout />
+    <div class="contacts__view">        
+        <ContactsAbout/>
         <ContactsList />
-    </div>    
+    </div>        
 </template>
 
 <script>
@@ -22,5 +22,8 @@ export default{
 <style lang="scss" scoped>
     .contacts__view{
         width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
     }
 </style>

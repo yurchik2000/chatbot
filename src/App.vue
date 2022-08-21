@@ -1,6 +1,6 @@
 <template>
   <div id="app">    
-    <MainWrapper />
+    <MainWrapper />    
   </div>
 </template>
 
@@ -15,8 +15,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  #app{
-    background: #f5f5f5;                        
-  }
+<style lang="scss">  
+#app{
+    margin: 0px;
+}
 </style>
